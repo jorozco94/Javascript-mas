@@ -11,11 +11,10 @@ function getRandomNumberOfTacos() {
       - new Array()
       - Array.fill()
   */
-  ;
   const randomTacoCount = Math.floor(Math.random() * 10) + 1;
-  const tacoTray = new Array(randomTacoCount)
+  const tacoTray = new Array(randomTacoCount);
   tacoTray.fill("🌮", 0, randomTacoCount);
-  return tacoTray // replace this empty tray array
+  return tacoTray; // replace this empty tray array
 
 }
 
